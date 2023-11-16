@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Willy Web</title>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- my style -->
+
+    <!-- Icons start -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Icons end -->
+
+    <!-- my fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar&family=Montserrat:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- my fonts -->
+
+    <!-- Icons start -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Icons end -->
+  </head>
+  <body>
+    <!-- navbar start -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <h1>Willy Rumapea</h1>
+        </div>
+
+        <div class="ham-menu" id="ham-menu">
+          <i data-feather="menu"></i>
+        </div>
+
+        <ul class="navbar-nav" id="navbar-nav">
+          <li><a href="#Beranda" class="navbar-link">Beranda</a></li>
+          <li><a href="#Skill" class="navbar-link">Skill</a></li>
+          <li><a href="#Sertifikat" class="navbar-link">Sertifkat</a></li>
+          <li><a href="#Kontak" class="navbar-link">Kontak </a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- navbar end -->
+
+    <main>
+      <div id="content">
+        <article class="beranda" id="Beranda">
+          <div class="content-beranda">
+            <h2>Front End <span>Developer</span></h2>
+            <p>
+              Nama saya Willy Rumapea, saya seorang mahasiswa Informatika dari
+              Universitas Harapan Medan,Tahun ketiga Semester 5. Tertarik dalam
+              dunia Front End Web & Programming.
+            </p>
+          </div>
+          <div class="beranda-img">
+            <img src="img/profil image.jpg" alt="profil-image" />
+          </div>
+        </article>
+
+        <!-- artikel skill -->
+        <article class="skill" id="Skill">
+          <div class="container-skill">
+            <h2>Skill</h2>
+            <p>Kemampuan saya</p>
+            <div class="container-skill-list">
+              <ul>
+                <li>
+                  <div class="background-img">
+                    <img src="img/html-5.png" alt="Html icon" class="icon" />
+                  </div>
+                  <span>HTML</span>
+                </li>
+                <li>
+                  <div class="background-img">
+                    <img src="img/css-3.png" alt="Css icon" class="icon" />
+                  </div>
+                  <span>CSS</span>
+                </li>
+                <li>
+                  <div class="background-img">
+                    <img
+                      src="img/js.png"
+                      alt="JavaScript icon"
+                      class="icon-cube"
+                    />
+                  </div>
+                  <span>JavaScript</span>
+                </li>
+                <li>
+                  <div class="background-img">
+                    <img
+                      src="img/bootstrap-.png"
+                      alt="bootstrap icon"
+                      class="icon-cube"
+                    />
+                  </div>
+                  <span>Bootstrapt</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- artikel sertifikat -->
+        <article class="sertifikat" id="Sertifikat">
+          <div class="container-sertifikat">
+            <h2>Sertifikat</h2>
+            <p>Sertifikat yang saya punya</p>
+            <ul>
+              <li>
+                <img
+                  src="document/software develop.png"
+                  alt="sertifikat dicoding software develop"
+                  class="dokumen-img"
+                />
+              </li>
+              <li>
+                <img
+                  src="document/pemrograman JavaScript.png"
+                  alt="sertifikat dicoding pemrograman JavaScript"
+                  class="dokumen-img"
+                />
+              </li>
+              <li>
+                <img
+                  src="document/manajemen projek.png"
+                  alt="sertifikat dicoding manjemen proyek"
+                  class="dokumen-img"
+                />
+              </li>
+              <li>
+                <img
+                  src="document/pemrograman SQL.png"
+                  alt="sertifikat dicoding pemrograman SQL"
+                  class="dokumen-img"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- artikel kontak -->
+        <article class="kontak" id="Kontak">
+          <h2>Hubungi Saya</h2>
+
+          <div class="container-kontak">
+            <form action="">
+              <div class="data-input">
+                <i data-feather="user"></i>
+                <input type="text" placeholder="nama" />
+              </div>
+              <div class="data-input">
+                <i data-feather="mail"></i>
+                <input type="email" placeholder="email" />
+              </div>
+              <div class="data-input-message">
+                <i data-feather="message-square"></i>
+                <input type="text" placeholder="message" class="message" />
+              </div>
+              <div class="tombol">
+                <a href="#"><button type="submit">kirim</button></a>
+              </div>
+            </form>
+
+            <div class="maps">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.0820336217!2d98.69618757357449!3d3.568597350433979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031305a674a7765%3A0xbea68939689c48a5!2sJl.%20HM.%20Joni%2C%20Kec.%20Medan%20Kota%2C%20Kota%20Medan%2C%20Sumatera%20Utara!5e0!3m2!1sid!2sid!4v1699329564462!5m2!1sid!2sid"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- aside -->
+          <aside>
+            <div class="container-aside">
+              <header>
+                <h3>Tentang Penulis</h3>
+                <figure>
+                  <img src="img/profil-img.jpeg" alt="foto-penulis" />
+                </figure>
+              </header>
+              <table>
+                <tr>
+                  <th>Nama</th>
+                  <td>Willy Rumapea</td>
+                </tr>
+                <tr>
+                  <th>Asal</th>
+                  <td>Riau</td>
+                </tr>
+                <tr>
+                  <th>Mahsiswa</th>
+                  <td>Universitas Harapan Medan</td>
+                </tr>
+                <tr>
+                  <th>Nama</th>
+                  <td>Willy Rumapea</td>
+                </tr>
+              </table>
+            </div>
+          </aside>
+        </article>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="container-footer">
+        <div class="logo">
+          <p>Willy Rumapea &#169; 2023</p>
+        </div>
+        <ul>
+          <li>
+            <a href="#"><i data-feather="mail"></i></a>
+          </li>
+          <li>
+            <a href="#"><i data-feather="github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i data-feather="facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i data-feather="instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- script js -->
+    <script src="js/script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
